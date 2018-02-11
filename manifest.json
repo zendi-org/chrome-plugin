@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Zendi",
+  "description": "Test",
+  "version": "0.1",
+
+  "icons": { "16": "logo_16.png",
+           "48": "logo_48.png",
+          "128": "Logo_128.png" },
+"content_scripts": [
+  {
+    "matches": ["https://*/*",
+				"http://*/*"],
+    "js": ["zendi.js"],
+	"run_at": "document_end"
+  }
+]
+}
