@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Zendi",
-  "description": "Test",
+  "description": "Send Lumen (XLM) to an email address.",
   "version": "0.1",
 
   "icons": { "16": "logo_16.png",
