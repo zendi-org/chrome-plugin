@@ -32,7 +32,7 @@ for ( k = 0; k < zarray.length; k++)
 	var linkText = document.createTextNode(" (Zendi)");
 	a.appendChild(linkText);
 	a.title = "Send Money";
-	a.href = "https://zendi.org/zend?"+text;
+	a.href = "https://zendi.org/zend?receiver="+text;
 	s.appendChild(a);
 			
     element.replaceChild(s, node);
